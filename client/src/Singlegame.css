@@ -1,0 +1,71 @@
+.singlegamepage{
+    display: flex;
+    flex-direction: column;
+}
+.game-title{
+    color: white;
+    font-size: 3rem;
+    margin-left: 5%;
+}
+.subtopic{
+    color: white;
+    margin-left: 5%;
+    translate: 0 -70px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.specification{
+    color: white;
+    margin-left: 5%;
+    translate: 0 -50px 0;
+}
+.subtopic-align{
+    display: flex;
+    column-gap: 6px;
+}
+.topics{
+    color: gray;
+    font-weight: 400;
+}
+p{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.description{
+    margin-left: 5%;
+    color: gray;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.status{
+    color: white;
+    margin-left: 5%;
+    translate: 0 -50px 0;
+    display: flex;
+    column-gap: 4px;
+}
+.status-text{
+    translate: 0 -24px 0;
+}
+.live{
+    height: 1rem;
+    width: 1rem;
+}
+table,td,tr{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.spec-name{
+    color: gray;
+}
+.spec-text{
+    color: gray;
+    font-weight: 500;
+    font-size: 1rem;
+}
+tr{
+    height: 3rem;
+}
